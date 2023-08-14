@@ -1,0 +1,32 @@
+
+<!--
+
+➢ Group calistirmak icin hem grup adini tanimlamak hem de nerede arayacagimizi belirtmek zorundayiz
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="minor regression" verbose="2">
+<test name="Regression1">
+<groups> <run>
+<includename="Regression1" /> </run>
+</groups> <packages>
+<package name="com.techproed.smokeTest"></package> </packages>
+</test>
+</suite>
+EXTENDS CLASS LARI DA GRUPLA!!!!
+
+EXTENDS CLASS LARI VE DEPENDSON METHODLARI KONROL EDEREK XML GRUPLARI KUR
+-->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="executeGrous">
+    <test name="smoke1" preserve-order="false">
+        <groups>
+            <run>
+                <include name="group2"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="day16_TestNG"/>
+        </packages>
+    </test>
+</suite>
+

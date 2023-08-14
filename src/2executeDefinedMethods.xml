@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="wanted methods">
+    <test name="methods">
+        <classes>
+            <class name="day16_TestNG.C03_Priority">
+                <methods>
+                    <include name="bestBuyTest"/>
+                </methods>
+            </class>
+            <class name="day16_TestNG.C02_BeforeClassAfterClass">
+                <methods>
+                    <include name="amazonTest"></include>
+                    <exclude name="techpro"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

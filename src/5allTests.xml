@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--
+put here as a name "test", my framework is not completely by TestNg , it gives error
+-->
+<suite name="allTests">
+    <test name="regression">
+        <packages>
+            <package name="day16_TestNG"/>
+            <package name="day17"/>
+        </packages>
+    </test>
+
+</suite>

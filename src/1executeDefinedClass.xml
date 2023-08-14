@@ -1,0 +1,47 @@
+
+
+<!--
+XML File Olusturma
+XML, hem insanların hem de makinelerin okuyabileceği belgeleri kodlamak için bir sözdizimi tanımlamak üzere
+ Dünya çapında ağ birliği (World Wide Web Consortium (W3C)) tarafından oluşturulan bir biçimlendirme dilidir.
+Veri saklamak ve farklı işletim sistemleri arasında veri transfer etmek için kullanılan metin işaretleme dili
+XML ile hazırlanmış dökümanlar .xml formatına sahip dosyalarda saklanır.
+
+Biz de framework’umuzdeki belirli testleri veya tum testleri otomatik olarak calistirmak icin xml dosyalari kullaniriz
+➢ Testng framework’de xml dosyasi kullanma nedenlerinden biri, belirli suitleri, testleri, package lari,
+ classları veya method lari çalıştırmaktır.
+➢ Belirli testleri, package lari, classları veya method’lari dahil edebilir (include) veya hariç (exclude) tutabiliriz.
+ Bu da bize esneklik (flexiblity) kazandirir.
+➢ Sadece birkaç basit yapılandırma ile TestNG.xml dosyasını kullanarak belirli test senaryolarını yürütebiliriz.
+TestNG xml ile ilgili tum dokumantasyon icin : https://testng.org/doc/documentation-main.html#testng-xml
+
+➢ Testng framework’de xml dosyasi kullanma nedenlerinden biri, belirli suitleri, testleri, package lari,
+classları veya method lari çalıştırmaktır.
+➢ Belirli testleri, package lari, classları veya method’lari dahil edebilir (include) veya hariç (exclude) tutabiliriz.
+ Bu da bize esneklik (flexiblity) kazandirir.
+➢ Sadece birkaç basit yapılandırma ile TestNG.xml dosyasını kullanarak belirli test senaryolarını yürütebiliriz.
+
+➢ XML dosya olustururken hiyerarsi ( buyukten kucuge siralama) onemlidir. Her zaman suite ile
+baslayip hangi seviyede test calistirmak istersek o seviyeye kadar sirali olarak kademeleri yazmaliyiz
+➢ Eger calistiracagimiz class’lar farkli hiyerarsilere ait ise yine suite ile baslariz,
+sonra ayrisma kadamesinden itibaren farkli hiyerarsi kumeleri olustururuz.
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > bununla baslamak gerekir
+
+   <class name="day16_TestNG.C03_Priority"></class>===> TestNg starts here , thats why
+
+ ** so, we dont need to reach classes one by one, we cam create our defined classes, or smoke tests or part of regression
+   tests
+ ** start from "src" folder to create .xml file
+-->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="executeDefinedClasses">
+    <test name="Classes">
+        <classes>
+            <class name="day18_PomStarts.C02_PageClassAmazon"/>
+            <class name="day18_PomStarts.C01_DriverFirstTest"/>
+            <class name="day17.C01_HardAssert"/>
+        </classes>
+    </test>
+</suite>

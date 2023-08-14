@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="execute packages" verbose="1" >
+    <test name="defined packages"   >
+        <packages>
+            <package name="day19"/>
+        </packages>
+    </test>
+</suite>
+

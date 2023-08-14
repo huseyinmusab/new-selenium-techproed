@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CrossBrowser Class Calistirma" parallel="tests" thread-count="3">
+    <test name="CrossBrowser Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="day21_Report_CrossBrowser.C01_HardAssert"/>
+        </classes>
+    </test>
+    <test name="CrossBrowser Firefox Test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="day21_Report_CrossBrowser.C01_HardAssert"/>
+        </classes>
+    </test>
+    <test name="CrossBrowser headless-chrome Test">
+        <parameter name="browser" value="headless-chrome"/>
+        <classes>
+            <class name="day21_Report_CrossBrowser.C01_HardAssert"/>
+        </classes>
+    </test>
+</suite>

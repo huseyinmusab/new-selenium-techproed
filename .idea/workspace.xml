@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5389bdb9-0997-43fc-a546-53571dcdae56" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/executeDefinedClass.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/day16_TestNG/C04_DependsOnMethod.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2SnEG3MGcyfwZXiLJbnipsB2Gn9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hueseyin.kocal/Desktop/new-selenium-techproed/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.47033897&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/resources/drivers" />
+      <recent name="$PROJECT_DIR$/src/resourrces/drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/drivers" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day22_grid_try" />
+      <recent name="day23" />
+      <recent name="day21" />
+      <recent name="day14" />
+      <recent name="day07" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_Packages_GRID.xml">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="new-selenium-techproed" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_TakeScreenShot" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="new-selenium-techproed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day15" />
+      <option name="MAIN_CLASS_NAME" value="day15.C04_TakeScreenShot" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_GridTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="new-selenium-techproed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day22_grid_try.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day22_grid_try" />
+      <option name="MAIN_CLASS_NAME" value="day22_grid_try.C01_GridTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_GridTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="new-selenium-techproed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day22_grid_try.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day22_grid_try" />
+      <option name="MAIN_CLASS_NAME" value="day22_grid_try.C01_GridTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Alerts" type="TestNG" nameIsGenerated="true">
+      <module name="new-selenium-techproed" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="day08" />
+      <option name="MAIN_CLASS_NAME" value="day08.C02_Alerts" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_GridTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="new-selenium-techproed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day22_grid_try.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day22_grid_try" />
+      <option name="MAIN_CLASS_NAME" value="day22_grid_try.C02_GridTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_GRID.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="new-selenium-techproed" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/6executeAllTestPARALLEL_GRID.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_Packages_GRID.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="new-selenium-techproed" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/6executeAllTestPARALLEL_Packages_GRID.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.C04_TakeScreenShot" />
+      <item itemvalue="TestNG.C02_Alerts" />
+      <item itemvalue="TestNG./Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_GRID.xml" />
+      <item itemvalue="TestNG./Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_Packages_GRID.xml" />
+      <item itemvalue="TestNG.C01_GridTest.test01" />
+      <item itemvalue="TestNG.C02_GridTest" />
+      <item itemvalue="TestNG.C01_GridTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_Packages_GRID.xml" />
+        <item itemvalue="TestNG./Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_GRID.xml" />
+        <item itemvalue="TestNG.C02_GridTest" />
+        <item itemvalue="TestNG.C01_GridTest" />
+        <item itemvalue="TestNG.C01_GridTest.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5389bdb9-0997-43fc-a546-53571dcdae56" name="Changes" comment="" />
+      <created>1689773848021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689773848021</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day04/RelativeLocators_01.java</url>
+          <line>12</line>
+          <properties class="day04.RelativeLocators_01" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day10/C03_ActionClass_amazon.java</url>
+          <line>30</line>
+          <properties class="day10.C03_ActionClass_amazon" method="testo1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day11/C02_Actions.java</url>
+          <line>10</line>
+          <properties class="day11.C02_Actions" method="test01">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day11/C04_FileExists.java</url>
+          <line>21</line>
+          <properties class="day11.C04_FileExists" method="test01">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day14/C01_ReadExcel.java</url>
+          <line>70</line>
+          <properties class="day14.C01_ReadExcel" method="readExcelTest02">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day15/C01_ReadExcel.java</url>
+          <line>12</line>
+          <properties class="day15.C01_ReadExcel" method="C04_RaedExcel">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day15/C02_WriteExcel.java</url>
+          <line>52</line>
+          <properties class="day15.C02_WriteExcel" method="C02_WriteExcel2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day18_PomStarts/C06_ConfigReader_Test_negative.java</url>
+          <line>13</line>
+          <properties class="day18_PomStarts.C06_ConfigReader_Test_negative" method="test02">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/day19/C02_E2ETestForHotelRoom.java</url>
+          <line>36</line>
+          <properties class="day19.C02_E2ETestForHotelRoom" method="test02">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/day05/C01_JUnit.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/day18_PomStarts/C06_ConfigReader_Test_negative.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/day21_Report_CrossBrowser/C00_TestWithReport.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/day22_grid_try/C01_GridTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/new_selenium_techproed$C04_ConfigurationProperties_test01.ic" NAME="C04_ConfigurationProperties.test01 Coverage Results" MODIFIED="1691251458862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>day18_PomStarts.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/new_selenium_techproed$RelativeLocators_01.ic" NAME="RelativeLocators_01 Coverage Results" MODIFIED="1689857482693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>day04.*</FILTER>
+    </SUITE>
+  </component>
+</project>

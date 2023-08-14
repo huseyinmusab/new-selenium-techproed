@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--
+put here as a name "test", my framework is not completely by TestNg , it gives error
+TestNG Paralel Testing
+➢ TestNg’de paralel test xml dosyasi kullanilarak yapilir.
+➢ Paralel test calisma suresini azaltir, dolayisiyla zaman kazanmak icin parallel test kullanilir.
+➢ Paralel test ayni anda birden fazla test case’i eszamanli olarak calistirmak demektir.
+➢ Xmldosyasindabelirlenentestleribelirledigimizlevelseviyesindebelirledigimizthread-count sayisinca parallel calistirir
+➢ Classes,methodsseviyesindecalistirirsakverilentumgorevlerbitenekadarbaskaclassveya method varsa calismaya devam eder. Level olarak Tests secilirse testlerin tanimlanmasi gereklidir
+➢ Cross Browser (Multi Browser) test ise farkli browserlar ile test yapmak demektir.Sirali (sequential) veya paralel yapilabilir.
+
+
+➢ Coklu calistirma, Parallel calistirma ve Cross Browser calistirma farkli farkli islemlerdir.
+➢ Mesela 5 testi sirali olarak ama topluca calistirirsak ➔ sirali coklu calistirma ➢ 5 testi ayni anda calismaya baslayan iki driver’la calistirirsam
+➔ parallel calistirma
+➢ 5 testi sirali olarak calistirip, ilk ucunu chrome, son ikisini firefox’da calistirirsam
+➔ sirali cros browser
+➢ 5 testin ucunu chrome, ikisini firefox ile calistirip, chrome ve firefox’u ayni zamanda calistirirsam ➔ parallel cros browsing test olur
+
+
+Paralel Testing / Classes
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> <suite name="Paralel Test 2" parallel="classes" thread-count="2">
+<test name="Class Paralel"> <classes>
+<class name="com.techproed.tests.D26_AmazonSatirSutunSayisi"></class> <class name="com.techproed.tests.D26_AmazonHucreTesti"></class> <class name="com.techproed.tests.D25_HtmlRapor1"></class>
+<class name="com.techproed.tests.D25_WindowHandle"></class>
+</classes> </test>
+</suite>
+
+
+Paralel Testing / Methods
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Paralel Test 1" parallel=“methods" thread-count="2" >
+<test name="Smoketest Paralel" > <packages>
+<package name="com.techproed.smokeTest"></package>
+<package name="com.techproed.tests"></package> </packages>
+</test> </suite>
+-->
+<suite name="Sequential Paralel test" parallel="classes" thread-count="3" verbose="1" >
+    <test name="paralelTest">
+   <classes>
+       <class name="day22_grid_try.C01_GridTest"/>
+       <class name="day22_grid_try.C02_GridTest"/>
+   </classes>
+
+    </test>
+</suite>
