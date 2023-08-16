@@ -1,4 +1,4 @@
-package day1_selenium4;
+package day01_Selenium4;
 
 public class Selenium4 {
     /*
