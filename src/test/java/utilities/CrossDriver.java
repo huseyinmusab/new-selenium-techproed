@@ -24,6 +24,7 @@ public class CrossDriver {
     public static WebDriver getDriver(String browser){
         //Eger browsera bir deger atanmamissa ConfigReader ile "properties" deki browser calissin, Bir nevi B plani,garanti olsun diye
         browser=browser==null ? ConfigReader.getProperty("browser"):browser;
+        // bu satir bizim emniyet subabimiz,eger parametre olarak null gonderilirse,configuration.properties'deki browser degerini alacak
 
         //(String browser)==>Testlerimizi xml file dan farkli browserlar ile calistirabilmek icin
         // (cunku artik properties dan browseri cagirmayacagim) getDriver() methoduna parametre atamamiz gerekir

@@ -115,6 +115,44 @@ kullanim) denir.
 ➢ Ardından driver’i kapatmak icin method olusturuyoruz.
 ➢ Şu andan itibaren TestBase Classını degil Driver Classını kullanacagiz.
 
+
  */
+
+
+        /*   ========  EXTRA NOTES   ========
+            Bundan sonra daha once driver olarak TestBase'den alip kullandigimiz
+            WEbDriver'in yerine
+
+            Driver class'indan getDriver()'unu kullanacagiz
+            ancak mahserin dort atlisinda kullandigimiz
+
+            driver= new ChromeDriver();
+
+            problem olusturuyor, cunku her calistiginda yeniden bir ChromeDriver olusturuyor
+
+            Bizim istedigimiz sey su :
+
+            ben testimiz calistirmaya basladigimda
+            ilk kez bu method'u kullaninca ChromeDriver olustursun
+            sonraki kullanimlarda olusturmasin
+
+            bunun icin driver == null kontrol edip
+            ona gore yeni ChromeDriver atamasi yapiyoruz
+
+         */
+
+        /*
+            isyerimizde calisirken
+            testlerimizi farkli browser'lar ile calistirmamiz istenebilir.
+            Dinamik olarak browser kullanabilmek icin
+            configuration.properties dosyamizda browser = istenenBrowser
+            seklinde browser'i tanimladik
+
+            Driver class'inda da configuration.properties dosyasindaki
+            bilgiyi okuyup, o bilgiye gore istenen browser'i olusturacak
+            bir yapi hazirlayalim
+         */
+
+
 
 }

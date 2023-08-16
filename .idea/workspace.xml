@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5389bdb9-0997-43fc-a546-53571dcdae56" name="Changes" comment="" />
+    <list default="true" id="5389bdb9-0997-43fc-a546-53571dcdae56" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day19/C01_SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day19/C01_SingletonPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/executeDefinedClass.xml" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +47,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/hueseyin.kocal/Desktop/new-selenium-techproed/src&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -189,11 +199,11 @@
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="JUnit.C04_TakeScreenShot" />
       <item itemvalue="TestNG.C02_Alerts" />
-      <item itemvalue="TestNG./Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_GRID.xml" />
-      <item itemvalue="TestNG./Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_Packages_GRID.xml" />
+      <item itemvalue="TestNG.C01_GridTest" />
       <item itemvalue="TestNG.C01_GridTest.test01" />
       <item itemvalue="TestNG.C02_GridTest" />
-      <item itemvalue="TestNG.C01_GridTest" />
+      <item itemvalue="TestNG./Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_GRID.xml" />
+      <item itemvalue="TestNG./Users/hueseyin.kocal/Desktop/new-selenium-techproed/src/6executeAllTestPARALLEL_Packages_GRID.xml" />
     </list>
     <recent_temporary>
       <list>
@@ -319,6 +329,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/day22_grid_try/C01_GridTest.java</url>
           <line>48</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/Driver.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
